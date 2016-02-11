@@ -11,10 +11,20 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var display: UILabel!
+    
+    var insertingNumber: Bool = false
    
     @IBAction func addNumber(sender: UIButton) {
         
-        let digit = sender.currentTitle
+        let digit = sender.currentTitle!
+        
+        if insertingNumber {
+            display.text = display.text! + digit
+        } else {
+            display.text = digit
+            insertingNumber = true
+        }
+        
         print("digit = \(digit)")
         
     }
