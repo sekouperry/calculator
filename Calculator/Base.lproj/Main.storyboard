@@ -123,6 +123,9 @@
                                 <rect key="frame" x="184" y="290" width="74" height="61"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="="/>
+                                <connections>
+                                    <action selector="equalsTo" destination="BYZ-38-t0r" eventType="touchUpInside" id="o22-GO-WXg"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9mJ-R2-tAI">
                                 <rect key="frame" x="266" y="221" width="74" height="61"/>

@@ -29,5 +29,9 @@ class ViewController: UIViewController {
         
     }
 
+    @IBAction func equalsTo() {
+        insertingNumber = false
+    }
+  
 }
 
